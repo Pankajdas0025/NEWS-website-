@@ -1,9 +1,6 @@
 <?php
+$hostname = "http://localhost/news-site";
 
-$hostname = "/news-site";
-$conn = new mysqli ("localhost" , "root" , "Pankaj" , "news_website");
-if(!$conn)
-{
-   echo "Connection failed!";
-}
+$conn = mysqli_connect("localhost","root","Pankaj","news_website") or die("Connection failed : " . mysqli_connect_error());
+
 ?>

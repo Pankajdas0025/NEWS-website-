@@ -19,7 +19,7 @@
         include "config.php";
 
         /* Calculate Offset Code */
-        $limit = 3;
+        $limit = 4;
 
         $sql = "SELECT post.post_id, post.title, post.post_date,
         category.category_name,post.category,post.post_img FROM post

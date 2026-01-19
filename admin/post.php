@@ -104,7 +104,6 @@
                   if($total_page > $page){
                     echo '<li><a href="post.php?page='.($page + 1).'">Next</a></li>';
                   }
-
                   echo '</ul>';
                 }
                   ?>
